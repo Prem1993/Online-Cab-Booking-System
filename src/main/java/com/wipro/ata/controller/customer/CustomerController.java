@@ -55,6 +55,14 @@ public class CustomerController {
 			   model.addObject("sourceDestination", sourceDestination);
 				return model;
 		   }
+	@RequestMapping(value="/ViewProfile1",method = RequestMethod.GET)
+	public ModelAndView ViewProfile() {
+		//ArrayList<ArrayList<String>> sourceDestination = customerservice.sourceDestination();
+		ModelAndView model = new ModelAndView("ViewProfile1");
+
+		//model.addObject("sourceDestination", sourceDestination);
+		return model;
+	}
 
 
 		@RequestMapping(value="/search",method = RequestMethod.POST)

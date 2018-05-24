@@ -40,9 +40,9 @@ color: #fff;
 
 </head>
 <body bgcolor=CadetBlue>
-<div class="main" style="text-align:center; padding:5px;background-color: Teal;">
+<div class="main" style="text-align:center; padding:5px;background-color: Red;">
 <h3 align="center" style="color:660033;">${message}</h3>
-<h1 id="heading" align="center">Welcome to Suhana Safar Travel Agency</h1>
+<h1 id="heading" align="center">Welcome to Nitish Kumar Travel Agency</h1>
 </div>
 <div>
 <div style="text-align:center; background-color:CadetBlue ; color:red; float: right; padding: 2%;">

@@ -63,7 +63,7 @@ margin-left: 4%;
 </head>
 <body bgcolor=CadetBlue >
 <div id="main" style="text-align:center; padding:5px;background-color: Teal;">
-<h1 align="center" style="margin-top:2%;">Welcome Customer <!--%=session.getAttribute("loginid") %  --></h1>
+<h1 align="center" style="margin-top:2%;">Welcome <%=session.getAttribute("loginid") %></h1>
 <h1 align="center" style="margin-left:21%;">Welcome to Suhana Safar Travel Agency <a href="logout" style="color: #cc0000;font-size:22px; margin-left:18%;">Logout</a></h1>
 
 </div>
@@ -82,7 +82,7 @@ margin-left: 4%;
     <li>
       <a href="#">Your Profile</a>
       <ul>
-        <li><a href="#">View Profile</a></li>
+        <li><a href="ViewProfile1">View Profile</a></li>
         <li><a href="#">Edit Profile</a></li>
       </ul>
     </li>
